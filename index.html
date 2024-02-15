@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper</title>
+    <style>
+        body {
+            background: darkred;
+            margin: 0%;
+            padding: 0%;
+        }
+        .wayne {
+            column-count: 2;
+            text-align: justify;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 22px;
+            color: #d1b7b7;    
+        }
+        .pic{
+            display: flex;
+            height: 300px;
+            width: 625px;
+        }
+        .heading{
+            padding: 0px;
+            margin: 0%;
+            position: relative;
+            font-family:cursive;
+            cursor: pointer;   
+        }
+        .heading::before {
+            content: "";
+            position: absolute;
+            left: 10%;
+            bottom: 10px;
+            width: 760px;
+            height: 40px;
+            transform: skew(22deg) translateX(-50%);
+            background: rgb(243, 243, 9);
+            z-index: -1;
+          }
+              
+        #click{
+            text-decoration: none;
+            color: #000000;
+        }
+
+        #bruce{
+            color: #fff;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: bold;
+            background-color: rgb(218, 88, 19);
+            border-radius: 2px;
+            display: inline;
+            margin: 6px;
+            height: 35px;
+            width: 100px;
+            font-size: 14px;
+            box-shadow:rgba(0, 0, 0, 0.8);
+            border: none;
+        }
+        .content{
+            display: flex;
+            text-align: left;
+            word-spacing:1mm;
+        }
+        #bruce:hover{
+            color: rgb(0, 0, 0);
+            background-color: rgb(251, 255, 11);
+            transform: translateX(5%,5%,5%,5%);
+            cursor: pointer;
+            transition-duration: 0.5s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="wayne">
+        <h1 class="heading"><a id="click" href="https://www.youtube.com/watch?v=mqqft2x_Aa4">The Batman Trailer</a></h1><br>
+            <img class="pic" src="D:\Study Material\Nature\batman-blade-runner-2049-3840x2160-221.jpg">
+        <form action="https://en.wikipedia.org/wiki/Batman"display="inline">
+            <button type="submit" id="bruce">Read More</button>
+        </form>
+        <p class="content">"Bruce Wayne" redirects here. For other uses, see Bruce Wayne (disambiguation).
+            DC Comics concept art of Bruce Wayne by Mikel Janín
+            Batman's secret identity is Bruce Wayne, a wealthy American industrialist. As a child, Bruce witnessed the
+            murder of his parents, Dr. Thomas Wayne and Martha Wayne, which ultimately led him to craft the Batman
+            persona and seek justice against criminals. He resides on the outskirts of Gotham City in his personal
+            residence, Wayne Manor. Wayne averts suspicion by acting the part of a superficial playboy idly living off
+            his family's fortune and the profits of Wayne Enterprises, his inherited conglomerate.[77][78] He supports
+            philanthropic causes through his nonprofit Wayne Foundation, which in part addresses social issues
+            encouraging crime as well as assisting victims of it, but is more widely known as a celebrity socialite.[79]
+            In public, he frequently appears in the company of high-status women, which encourages tabloid gossip while
+            feigning near-drunkenness with consuming large quantities of disguised ginger ale since Wayne is actually a
+            strict teetotaler to maintain his physical and mental prowess.[80] Although Bruce Wayne leads an active
+            romantic life, his vigilante activities as Batman account for most of his time.[81]
+
+            Various modern stories have portrayed the extravagant, playboy image of Bruce Wayne as a facade.[82] This is
+            in contrast to the Post-Crisis Superman, whose Clark Kent persona is the true identity, while the Superman
+            persona is the facade.[83][84] In Batman Unmasked, a television documentary about the psychology of the
+            character, behavioral scientist Benjamin Karney notes that Batman's personality is driven by Bruce Wayne's
+            inherent humanity; that "Batman, for all its benefits and for all of the time Bruce Wayne devotes to it, is
+            ultimately a tool for Bruce Wayne's efforts to make the world better". Bruce Wayne's principles include the
+            desire to prevent future harm and a vow not to kill. Bruce Wayne believes that our actions define us, we
+            fail for a reason, and anything is possible.[85]
+
+            Writers of Batman and Superman stories have often compared and contrasted the two. Interpretations vary
+            depending on the writer, the story, and the timing. Grant Morrison[86] notes that both heroes "believe in
+            the same kind of things" despite the day/night contrast their heroic roles display. Morrison notes an
+            equally stark contrast in their real identities. Bruce Wayne and Clark Kent belong to different social
+            classes: "Bruce has a butler, Clark has a boss." T. James Musler's book Unleashing the Superhero in Us All
+            explores the extent to which Bruce Wayne's vast personal wealth is important in his life story, and the
+            crucial role it plays in his efforts as Batman.[87]
+
+            Will Brooker notes in his book Batman Unmasked that "the confirmation of the Batman's identity lies with the
+            young audience ...he doesn't have to be Bruce Wayne; he just needs the suit and gadgets, the abilities, and
+            most importantly the morality, the humanity. There's just a sense about him: 'they trust him ...and they're
+            never wrong."[88]</p>
+    </div>
+</body>
+
+</html>
